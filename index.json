@@ -347,13 +347,26 @@
       ],
       "icon": "AwardIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/wolfie.global-badges@1.0.0.zip",
           "sha256": "a0cfcfbd146ef6189e4ecb1900e828db945fac4435c8ff69e74495b3b63e05cc",
           "size": 2849,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/wolfie.global-badges@1.0.1.zip",
+          "sha256": "0db00a484e9677b730fc5e34e5ea31a7f5509628aefaea308701fca17e0a2f6c",
+          "size": 2922,
           "dependencies": {
             "revenge.api": {
               "version": ">=1 <2"
