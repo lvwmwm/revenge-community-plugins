@@ -377,6 +377,30 @@
           }
         }
       }
+    },
+    "wolfie.sound-controls": {
+      "name": "Sound Controls",
+      "description": "Mute individual call effects, ringtones, and in-app notification sounds.",
+      "author": "Wolfie <347096063569559553> (https://wolfies.org/ \"Website\") (https://github.com/Wolfkid200444 \"GitHub\")",
+      "icon": "SoundboardSlashIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/wolfie.sound-controls@1.0.0.zip",
+          "sha256": "5350e72d01024d11e8e0ae8d434d3669bbbf7b21b7389cd2b4ccfaa57c268ce4",
+          "size": 2451,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
     }
   }
 }
