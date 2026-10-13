@@ -58,6 +58,30 @@
         }
       }
     },
+    "k1ngop.disable-call-idle": {
+      "name": "DisableCallIdle",
+      "description": "Stop getting kicked from empty voice calls after 3 minutes.",
+      "author": "k1ng_op <641266820187160576>",
+      "icon": "PhoneCallIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/k1ngop.disable-call-idle@1.0.0.zip",
+          "sha256": "8e5b82fdf090455b806d47a92eace21792c7dc10025b4bb6f87870112c4a575c",
+          "size": 727,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "k1ngop.no-idle": {
       "name": "No Idle",
       "description": "Prevent status from idling when Discord is in the background.",
