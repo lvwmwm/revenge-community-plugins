@@ -183,6 +183,36 @@
         }
       }
     },
+    "palmdevs.fake-nitro": {
+      "name": "Fake Nitro",
+      "description": "Use some Nitro features without Nitro.",
+      "author": "Palm <629368283354628116> (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "contributors": [
+        "contrabags <780075200950566933> (https://github.com/contrabag \"GitHub\")",
+        "nexpid <853550207039832084> (https://github.com/nexpid \"GitHub\")",
+        "aeongdesu (https://github.com/aeongdesu \"GitHub\")",
+        "Dziurwa <1001086404203389018>"
+      ],
+      "icon": "NitroWheelIcon",
+      "channels": {
+        "latest": "1.0.4"
+      },
+      "versions": {
+        "1.0.4": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.fake-nitro@1.0.4.zip",
+          "sha256": "32a53ff17f1d4798cc81ca5552948748a77004cb592084f1d3eb77914b2609cb",
+          "size": 5664,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "palmdevs.hide-blocked-messages": {
       "name": "Hide Blocked Messages",
       "description": "Hides messages from blocked or ignored users, and optionally removes replies to them.",
