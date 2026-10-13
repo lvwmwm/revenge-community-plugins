@@ -311,17 +311,30 @@
     },
     "palmdevs.shiki-codeblocks": {
       "name": "Shiki Codeblocks",
-      "description": "Highlights code blocks in chat with Shiki and custom themes.",
+      "description": "Highlighted and selectable code blocks in chat with Shiki and custom themes.",
       "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
       "icon": "PollsIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.1.0"
       },
       "versions": {
         "1.0.0": {
           "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.shiki-codeblocks@1.0.0.zip",
           "sha256": "a2980dc6c07ff0652b82d4d3006ea09a50e0cd579dd074e433f9c0f9a795c765",
           "size": 474049,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.1.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.shiki-codeblocks@1.1.0.zip",
+          "sha256": "15c00c8de8b4a6bcd64cee3b09377cdea12de82f4a7d2bd55aedaf7576f4b9b1",
+          "size": 482053,
           "dependencies": {
             "revenge.api": {
               "version": ">=1.1.0 <2"
