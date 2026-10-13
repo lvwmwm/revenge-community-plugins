@@ -315,7 +315,7 @@
       "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
       "icon": "PollsIcon",
       "channels": {
-        "latest": "1.1.0"
+        "latest": "1.2.0"
       },
       "versions": {
         "1.0.0": {
@@ -335,6 +335,19 @@
           "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.shiki-codeblocks@1.1.0.zip",
           "sha256": "15c00c8de8b4a6bcd64cee3b09377cdea12de82f4a7d2bd55aedaf7576f4b9b1",
           "size": 482053,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.2.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.shiki-codeblocks@1.2.0.zip",
+          "sha256": "108404a5ab2826ffdc5191bf5de0a8906e8153ff04ef09a765774fc80ac119d0",
+          "size": 483502,
           "dependencies": {
             "revenge.api": {
               "version": ">=1.1.0 <2"
