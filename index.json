@@ -207,6 +207,30 @@
         }
       }
     },
+    "palmdevs.join-as-lurker": {
+      "name": "Join as Lurker",
+      "description": "Joins discoverable servers in lurker mode (server preview) instead of as a member.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "EyeIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.join-as-lurker@1.0.0.zip",
+          "sha256": "f572802d0f4b516de0dbbc650111d3b8c05cbfeebec9e9c343c5ab19af933d82",
+          "size": 1236,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "palmdevs.link-alert-copy": {
       "name": "Link Alert Copy",
       "description": "Shows a Copy Link button in the \"Leaving Discord\" alert.",
