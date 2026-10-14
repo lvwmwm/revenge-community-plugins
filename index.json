@@ -410,6 +410,35 @@
         }
       }
     },
+    "revenge.api.themes": {
+      "name": "Themes API",
+      "description": "Lets theme plugins provide color themes, font packs, icon packs, and emoji packs.",
+      "author": "Revenge",
+      "contributors": [
+        "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+        "Ushie <399862294143696897> (https://github.com/Ushie \"GitHub\")",
+        "cocobo1 <767650984175992833> (https://github.com/C0C0B01 \"GitHub\")"
+      ],
+      "icon": "PaintPaletteIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.api.themes@1.0.0.zip",
+          "sha256": "c8c9812f99db715b6f0bcd39492e7e66b973b45361f7415174a554cf251e8f3d",
+          "size": 55391,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "revenge.developer-kit": {
       "name": "Developer Kit",
       "description": "Tools assisting Revenge developers.",
@@ -462,6 +491,61 @@
               "version": "*",
               "optional": true
             }
+          }
+        }
+      }
+    },
+    "revenge.settings.themes": {
+      "name": "Theme Settings",
+      "description": "Manage your color themes, font packs, icon packs, and emoji picks.",
+      "author": "Revenge",
+      "contributors": [
+        "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")"
+      ],
+      "icon": "PaintPaletteIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.settings.themes@1.0.0.zip",
+          "sha256": "3f702970661988afe1d452407deaec82637fa61b556f0f4c0cc8a3d7a55ba4d0",
+          "size": 7996,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.settings": {},
+            "revenge.api.themes": {},
+            "revenge.settings.plugins": {}
+          }
+        }
+      }
+    },
+    "revenge.themes.legacy": {
+      "name": "Legacy Themes",
+      "description": "Import and use legacy themes and font packs by URL.",
+      "author": "Revenge",
+      "icon": "PaintPaletteIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.themes.legacy@1.0.0.zip",
+          "sha256": "5213236bea444867534da805a5ce8f4aabc35625a2046649e54b29ac5b3890ac",
+          "size": 2511,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {}
           }
         }
       }
