@@ -58,6 +58,30 @@
         }
       }
     },
+    "k1ngop.dashless": {
+      "name": "Dashless",
+      "description": "Changes dashes in text channel names to spaces.",
+      "author": "k1ng_op <641266820187160576>",
+      "icon": "ChannelListIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/k1ngop.dashless@1.0.0.zip",
+          "sha256": "3856bce758514a80913285bab5b92cb04b13f6c52085173511ffb012b55dfde3",
+          "size": 1131,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "k1ngop.disable-call-idle": {
       "name": "DisableCallIdle",
       "description": "Stop getting kicked from empty voice calls after 3 minutes.",
