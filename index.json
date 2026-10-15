@@ -520,15 +520,15 @@
       }
     },
     "revenge.settings.themes": {
-      "name": "Theme Settings",
-      "description": "Manage your color themes, font packs, icon packs, and emoji picks.",
+      "name": "Themes",
+      "description": "Color themes, font packs, icon packs, and emoji packs.",
       "author": "Revenge",
       "contributors": [
         "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")"
       ],
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.1.0"
       },
       "versions": {
         "1.0.0": {
@@ -546,6 +546,24 @@
             "revenge.api.themes": {},
             "revenge.settings.plugins": {}
           }
+        },
+        "1.1.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.settings.themes@1.1.0.zip",
+          "sha256": "6186c3be65d790ccc5dda651e77bdffc9e6328ee0644bdb7a0857d86d0c6cb78",
+          "size": 8228,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.settings": {},
+            "revenge.api.themes": {
+              "version": ">=1 <2"
+            },
+            "revenge.settings.plugins": {}
+          }
         }
       }
     },
@@ -555,7 +573,7 @@
       "author": "Revenge",
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
@@ -570,6 +588,22 @@
               "version": "*"
             },
             "revenge.api.themes": {}
+          }
+        },
+        "1.0.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.themes.legacy@1.0.1.zip",
+          "sha256": "0290f65030be9084ad7564a3446b00b1be50f5b744b5da9b0386343002e66903",
+          "size": 2690,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {
+              "version": ">=1 <2"
+            }
           }
         }
       }
