@@ -333,6 +333,30 @@
         }
       }
     },
+    "palmdevs.message-link-preview": {
+      "name": "Message Link Preview",
+      "description": "Preview and interact with messages that you've got linked to.",
+      "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
+      "icon": "ChatIcon",
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.message-link-preview@1.0.0.zip",
+          "sha256": "f959f9772a192e5dea87e388ef3324c2591c55bd80567d3e533201cef23754d0",
+          "size": 27788,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
     "palmdevs.shiki-codeblocks": {
       "name": "Shiki Codeblocks",
       "description": "Highlighted and selectable code blocks in chat with Shiki and custom themes.",
