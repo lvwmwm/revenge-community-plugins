@@ -530,7 +530,7 @@
       ],
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.2.0"
+        "latest": "1.3.0"
       },
       "versions": {
         "1.0.0": {
@@ -563,6 +563,19 @@
           "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.api.themes@1.2.0.zip",
           "sha256": "5b3bfbfe1829acb736a3d2a37206a35266e2b20820f6b61361b242858d85d3a5",
           "size": 55779,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.3.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.api.themes@1.3.0.zip",
+          "sha256": "ebfd9098d92e1f228da30c6fc151c24239e6f62a1376787728913d5cafd354a8",
+          "size": 60718,
           "dependencies": {
             "revenge.api": {
               "version": ">=1.1.0 <2"
@@ -639,7 +652,7 @@
       ],
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.2.0"
+        "latest": "1.3.0"
       },
       "versions": {
         "1.0.0": {
@@ -711,6 +724,24 @@
             },
             "revenge.settings.plugins": {}
           }
+        },
+        "1.3.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.settings.themes@1.3.0.zip",
+          "sha256": "4fb7ce350000f473e51cb4c96603845de560e36e56722a350959d560546c5059",
+          "size": 9275,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.settings": {},
+            "revenge.api.themes": {
+              "version": ">=1.2.0 <2"
+            },
+            "revenge.settings.plugins": {}
+          }
         }
       }
     },
@@ -720,7 +751,7 @@
       "author": "Revenge",
       "icon": "PaintPaletteIcon",
       "channels": {
-        "latest": "1.0.2"
+        "latest": "1.1.0"
       },
       "versions": {
         "1.0.0": {
@@ -757,6 +788,23 @@
           "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.themes.legacy@1.0.2.zip",
           "sha256": "5e27403f56414001ee1a5a07af1d1b7ed123fba2f358ae09814a2c25b2fab6c5",
           "size": 2702,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "revenge.api.themes": {
+              "version": ">=1 <2"
+            },
+            "revenge.settings.themes": {}
+          }
+        },
+        "1.1.0": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/revenge.themes.legacy@1.1.0.zip",
+          "sha256": "8ac3c6c43c98ea63a8fb118753eddffb0573772232bf6179e7b8559171afaf79",
+          "size": 2792,
           "dependencies": {
             "revenge.api": {
               "version": ">=1 <2"
