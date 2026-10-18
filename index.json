@@ -352,13 +352,26 @@
       "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
       "icon": "AtIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
           "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.mention-avatars@1.0.0.zip",
           "sha256": "5254859adaec54acfbc40b746af5348e7abe77ee7d81f357d0f06d21e635cbca",
           "size": 13894,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.1.0 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.mention-avatars@1.0.1.zip",
+          "sha256": "7edb8fb20918e84065afad4ac29ac75f5e35e4772ced3694098437fec7d27cb5",
+          "size": 13996,
           "dependencies": {
             "revenge.api": {
               "version": ">=1.1.0 <2"
