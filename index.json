@@ -189,7 +189,7 @@
       "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
       "icon": "SuperReactionIcon",
       "channels": {
-        "latest": "1.0.2"
+        "latest": "1.0.3"
       },
       "versions": {
         "1.0.0": {
@@ -228,6 +228,19 @@
             },
             "discord": {
               "version": "*"
+            }
+          }
+        },
+        "1.0.3": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.better-typing-indicators@1.0.3.zip",
+          "sha256": "2d464a08e01a5139afed0eda2d731046563b44b91f971b5f050c5ca18299d1e6",
+          "size": 14869,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": ">=352.2"
             }
           }
         }
@@ -489,7 +502,7 @@
       "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
       "icon": "ClockWarningIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
@@ -502,6 +515,19 @@
             },
             "discord": {
               "version": "*"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.show-timeout-duration@1.0.1.zip",
+          "sha256": "4787ae4eabc1a692dcd675d3bdafbad493111f034549e9766b590e087dff9b16",
+          "size": 21017,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": ">=352.2"
             }
           }
         }
@@ -564,7 +590,7 @@
       "author": "Palm <629368283354628116> (https://github.com/sponsors/PalmDevs \"Donations\") (https://palmdevs.me \"Website\") (https://github.com/PalmDevs \"GitHub\")",
       "icon": "ReactionIcon",
       "channels": {
-        "latest": "1.0.0"
+        "latest": "1.0.1"
       },
       "versions": {
         "1.0.0": {
@@ -577,6 +603,19 @@
             },
             "discord": {
               "version": "*"
+            }
+          }
+        },
+        "1.0.1": {
+          "url": "https://revenge-mod.github.io/revenge-community-plugins/pool/palmdevs.who-reacted@1.0.1.zip",
+          "sha256": "eeefbaa455433aa9727eb16a20938375554b93ab4540b894ca13a5225bdf7af5",
+          "size": 28153,
+          "dependencies": {
+            "revenge.api": {
+              "version": ">=1.2.1 <2"
+            },
+            "discord": {
+              "version": ">=352.2"
             }
           }
         }
