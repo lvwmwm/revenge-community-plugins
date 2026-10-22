@@ -2,7 +2,7 @@
 	"format": 1,
 	"id": "liver.permission-viewer",
 	"name": "Permission Viewer",
-	"description": "Inspect the permissions a server, channel, role, or member has.",
+	"description": "Inspect permissions of servers, channels, roles, and members.",
 	"author": "Livie <755950362342457384>",
 	"contributors": ["tralwdwdd"],
 	"icon": "ShieldUserIcon",
